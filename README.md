@@ -46,6 +46,17 @@ claims_report.xlsx        # Output report (Excel)
 •	Insurance fraud detection (via denial patterns)
 •	Trend reporting for executives
 
+**Macro_Demo_CLaims_Report_Generator.sas code** automates the generation of healthcare claims summary reports using SAS macros. It demonstrates the use of parameterized macros, debugging techniques, conditional filtering, ODS reporting, and logging.
+
+**Features**
+Dynamic filtering based on:
+Date range
+Claim status (e.g., APPROVED, DENIED, PENDING)
+Product line (e.g., MEDICAL, DENTAL)
+Logging framework for execution traceability
+PDF report output using ODS
+Macro-level debugging with MPRINT, MLOGIC, and SYMBOLGEN
+
 **Author**
 Parthiban Kandavel
 Advanced SAS Certified Programmer | Data Engineer (Python/Snowflake/DBT/Informatica/SAS/Control m/APache Airflow/Cloud)
