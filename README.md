@@ -34,28 +34,26 @@ claims_report.xlsx        # Output report (Excel)
   - provider_summary
   - denied_claims
   - claims_report.xlsx (with all 3 tables)
+**Macro_Demo_CLaims_Report_Generator.sas code** automates the generation of healthcare claims summary reports using SAS macros. It demonstrates the use of parameterized macros, debugging techniques, conditional filtering, ODS reporting, and logging.
+
 **Skills Highlighted**
 •	Base SAS: DATA Step, INFILE, PROC IMPORT, FORMAT
 •	SQL Processing: PROC SQL joins, groupings, and filters
 •	Automation: Monthly metrics generation
 •	Reporting: ODS EXCEL for multi-tab Excel export
+* Dynamic filtering based on:
+    Date range
+    Claim status (e.g., APPROVED, DENIED, PENDING)
+    Product line (e.g., MEDICAL, DENTAL)
+* Logging framework for execution traceability
+* PDF report output using ODS
+* Macro-level debugging with MPRINT, MLOGIC, and SYMBOLGEN
 
 **Use Case Scenarios**
 •	Healthcare claim audits and compliance tracking
 •	Provider performance monitoring
 •	Insurance fraud detection (via denial patterns)
 •	Trend reporting for executives
-
-**Macro_Demo_CLaims_Report_Generator.sas code** automates the generation of healthcare claims summary reports using SAS macros. It demonstrates the use of parameterized macros, debugging techniques, conditional filtering, ODS reporting, and logging.
-
-**Features**
-Dynamic filtering based on:
-Date range
-Claim status (e.g., APPROVED, DENIED, PENDING)
-Product line (e.g., MEDICAL, DENTAL)
-Logging framework for execution traceability
-PDF report output using ODS
-Macro-level debugging with MPRINT, MLOGIC, and SYMBOLGEN
 
 **Author**
 Parthiban Kandavel
