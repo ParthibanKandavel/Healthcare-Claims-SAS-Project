@@ -34,6 +34,7 @@ claims_report.xlsx        # Output report (Excel)
   - provider_summary
   - denied_claims
   - claims_report.xlsx (with all 3 tables)
+
 **Macro_Demo_CLaims_Report_Generator.sas code** automates the generation of healthcare claims summary reports using SAS macros. It demonstrates the use of parameterized macros, debugging techniques, conditional filtering, ODS reporting, and logging.
 
 **Skills Highlighted**
